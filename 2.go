@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-
-	var name = "ahmad"
-
-	fmt.Println(name)
+	var nameee = "123"
+	// 012
+	for number, sina := range nameee {
+		fmt.Println(number)
+		fmt.Println(sina)
+	}
 }
